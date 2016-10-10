@@ -1,0 +1,25 @@
+PageTitle=Редактор сайта
+HeadTitle={GetItem|PageTitle} - {GetItem|BrendName}
+HeadMetaKeywords=Админка,Редактор
+//---
+Write=Записать
+File=Файл
+Folder=Папка
+Date=Дата
+Create folder=Создать папку
+Create file=Создать файл
+Rename=Переименовать
+Delete=Удалить
+Upload=Загрузить
+Action=Действие
+Result=Результат
+Path=Путь
+Guest is not allowed=Вход гостю запрещен 
+Unexisting files=Не существующие файлы
+Home=Домой
+Upload SQL script=Загрузить SQL скрипт
+Upload file=Загрузить файл
+Page is not allowed=Страница запрещена
+You are guest here=Вы здесь гость
+Register as administrator=Зарегистрироваться как администратор
+Administrator=Администратор

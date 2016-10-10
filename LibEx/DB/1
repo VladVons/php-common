@@ -1,0 +1,25 @@
+SELECT Ref_Ware.ID AS ID, Ref_Ware.Image AS Image, Ref_Ware.Name AS Name, round(Price_A.Value, 2) AS Price, round(Price_B.Value, 2) AS PriceS, Ref_Ware.Description AS Details, Ref_Company.Name AS Manufacture, Sys_CategoryItem.ID AS Parent FROM Ref_Ware INNER JOIN Sys_CategoryItem ON Sys_CategoryItem.Item_ID = Ref_Ware.ID LEFT JOIN Ref_Price Price_A ON (Price_A.Ware_ID = Ref_Ware.ID AND Price_A.PriceType_ID = 1) LEFT JOIN Ref_Price Price_B ON (Price_B.Ware_ID = Ref_Ware.ID AND Price_B.PriceType_ID = 2) LEFT JOIN Ref_Company ON Ref_Company.ID = Ref_Ware.Producer_ID WHERE 1 AND Price_B.PriceType_ID = 2 AND Price_B.Value < Price_A.Value ORDER BY Name ASC;
+
+ Explain Select ...
+
+ SELECT 
+  Ref_Ware.ID AS ID, 
+  Ref_Ware.Image AS Image, 
+  Ref_Ware.Name AS Name, 
+  round(Price_A.Value, 2) AS Price, 
+  round(Price_B.Value, 2) AS PriceS, 
+  Ref_Ware.Description AS Details, 
+  Ref_Company.Name AS Manufacture, 
+  Sys_CategoryItem.ID AS Parent 
+FROM 
+  Ref_Ware 
+  INNER JOIN Sys_CategoryItem ON Sys_CategoryItem.Item_ID = Ref_Ware.ID 
+  LEFT JOIN Ref_Price Price_A ON (Price_A.Ware_ID = Ref_Ware.ID AND Price_A.PriceType_ID = 1) 
+  LEFT JOIN Ref_Price Price_B ON (Price_B.Ware_ID = Ref_Ware.ID AND Price_B.PriceType_ID = 2) 
+  LEFT JOIN Ref_Company ON Ref_Company.ID = Ref_Ware.Producer_ID 
+WHERE 
+  1 AND 
+  Price_B.PriceType_ID = 2 AND 
+  Price_B.Value < Price_A.Value 
+ORDER BY 
+  Name ASC;

@@ -1,0 +1,12 @@
+{IncludeData|MailUs.txt}
+
+PageTextTop=
+{HrefFile|{GetItem|SysPathPriceList}|Скачать прайс-лист} 
+
+Розсилка здійснюється по мірі надходження нового товару
+Якщо Ви хочете регулярно отримувати наш прайс-ліст підпишіться тут 
+//---
+PriceListDate=Прайс-лист станом на
+SubscribeEMail=Підписка на прайс-ліст
+Subscribe=Підписатись
+UnSubscribe=Відписатись

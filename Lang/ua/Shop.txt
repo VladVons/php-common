@@ -1,0 +1,15 @@
+PageTitle=PageTitle
+HeadTitle=HeadTitle
+HeadMetaKeywords=HeadMetaKeywords
+//---
+Article name=Назва товару
+Code=Код
+Order it=Замовити
+Drivers=Каталог драйверів 
+Pages=Сторінки
+Items=Елементи
+Found=Знайдено
+Price=Ціна
+Sum=Сума
+More=Далі
+Buy=Купити 

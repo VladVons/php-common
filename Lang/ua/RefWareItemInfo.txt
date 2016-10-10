@@ -1,0 +1,4 @@
+{IncludeData|Shop.txt}
+
+Drivers=Каталог драйверів
+MoreArticleInfo=Детальніша інформація про товар

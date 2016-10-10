@@ -1,0 +1,10 @@
+PageTitle=Персональні дані
+HeadTitle={GetItem|BrendName} - {GetItem|PageTitle}
+HeadMetaKeywords=
+//---
+First name=Імя  	
+Last name=Прізвище  	
+EMail=Ел. пошта
+Phone=Телефон
+Address=Адреса
+Password=Пароль

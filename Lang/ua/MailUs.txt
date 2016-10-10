@@ -1,0 +1,8 @@
+Contact information=Ваша контактна інформація 
+Address=Адреса
+Full name=Повне ім'я
+Confirmation code=Код підтвердження
+EMail=еМейл
+Company name=Назва фірми
+Phone=Телефон
+Message=Повідомленя

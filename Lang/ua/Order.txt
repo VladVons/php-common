@@ -1,0 +1,11 @@
+{IncludeData|MailUs.txt}
+{IncludeData|Shop.txt}
+
+Quantity=К-сть
+Goods=Товари
+Clear=Очистити
+Save=Зберегти
+Total=Всього
+Customer=Платник
+Supplier=Постачальник
+NoOrders=Кошик вашого замовлення порожній

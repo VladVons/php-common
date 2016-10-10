@@ -1,0 +1,11 @@
+{IncludeData|MailUs.txt}
+
+Action=Спеціальні акції та пропозиції
+Confirmation code is wrong=Не вірний код підтвердження
+CheckMinLengthMsg=Довжина поля повинна бути більша як
+//---
+EMailFooter=
+---
+{GetItem|AddrInfo}
+
+http://{GetVar|_Server|SERVER_NAME}

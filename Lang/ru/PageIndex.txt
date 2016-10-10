@@ -1,0 +1,34 @@
+//--- Titles
+View=Просмотр
+Gallery=Галлерея
+Pages=Страницы
+Search on site=Поиск по сайту
+//---
+Modified=Модифицировано
+Time generation=Время генерации
+Size=Размер
+Edit=Редактировать
+Upward=Наверх
+Print=Печать
+Detailed=Детально
+
+//--- Common messages
+Directory doesnt exists=Директория не существует
+File doesnt exists=Файл не существует
+Directory is empty=Директоря пустая
+String is empty=Строка пустая
+eMail format is wrong=Не верный формат eMail
+String length is wrong=Не верная длинна строки
+Word is in a ban list=Не допустимые слова
+Confirmanion code is wrong=Не верный код подтверждения
+Not found=Не найдено
+Page not found=Страница не найдена
+Page is empty=Страница пустая
+Index out of range=индекс за пределами
+//---
+ReportError=
+Ошибка. Сообщите пожалуйста веб-администратору
+Skype: VladVons
+ICQ  : 114979538
+eMail: VladVons@mail.ru
+Тел: +38-097-6646510

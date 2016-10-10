@@ -1,0 +1,13 @@
+PageTitle=Реєстрація
+HeadTitle={GetItem|BrendName} - {GetItem|PageTitle}
+HeadMetaKeywords=
+//---
+Login=Реєстрація
+Logout=Вихід
+User=Користувач
+Password=Пароль
+Remember=Запамятати
+Wrong password or user name=Не вірний пароль або імя користувача
+//---
+PageTextTop=Вход пользователей в систему
+
